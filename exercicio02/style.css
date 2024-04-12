@@ -1,0 +1,33 @@
+/* style do index */
+body{
+    background-color: rgb(255, 255, 255);
+ }
+div{
+    display: flex ;
+    justify-content: space-evenly;      
+ } 
+main{
+flex: 20 1 500px;
+height: calc(100vh - 224px)
+}
+
+article{
+display:flex;
+margin: 3px;
+flex:  1 1 200px;
+}
+
+/* style do bairros */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
